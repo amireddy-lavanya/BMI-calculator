@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+          <div class="container">
+            
+            <form class="input">
+                <div>
+               <label for="age">Age</label>
+            <input type="text" id="age">   &nbsp; &nbsp;<strong>ages:2-120</strong>
+            </div>
+            <div>
+                <label>Gender</label>
+                
+                <input type="radio">Male 
+                <input type="radio">Female
+            </div>
+            <div>
+                <label for="height">Height</label>
+                <input type="text" id="height" placeholder="cm">
+            </div>
+            <div>
+                <label for="weight" >Weight</label>
+                <input type ="text" id="weight" placeholder="kg">
+            </div>
+            </form>
+            <div id="result-input">
+                <input type="button" id="calculate" value="Calculate" > 
+                <input type="button" id="clr" value="clear" onclick="clr()" >
+                </div>
+                <div>
+                <input type="text" id="result" value="Result">
+                <span id="bmitotal"><strong>BMI=0.00 kg/m^2</strong></span>
+            </div>
+            </div>
+          </div>
+          <script src="script.js"></script>
+</body>
+</html>
