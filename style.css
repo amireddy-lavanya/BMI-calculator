@@ -1,0 +1,64 @@
+*{
+    margin:"0px";
+    padding: "0px";
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto auto;
+    height: 211px;
+    padding: 26px 20px;
+    background-color: aqua;
+}
+
+.container .input{
+    padding: 10px;
+}
+#age{
+    width:10%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#height{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#weight{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#gender{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#result-input{
+    width:40%;
+    display: flex;
+    margin-left: 30px;
+}
+#clr{
+    margin-left: 10px;
+    padding: 10px;
+}
+#calculate{
+    width:60%;
+    background-color: greenyellow;
+}
+
+#result{
+    margin-left: 500px;
+    background-color:antiquewhite;
+    width:100px;
+    height:50px;
+    margin-bottom: 200px;
+
+}
